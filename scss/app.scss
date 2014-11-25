@@ -1,0 +1,207 @@
+$body-bg: #1E1E20;
+
+$anchor-font-color: #F25454;
+$anchor-font-color-hover: #F25454;
+
+$button-bg-color: #F25454;
+$button-border-width: 1px;
+$button-border-color: #F2F2F2;
+$button-bg-hover: #1e1e20;
+
+$h1-font-size: 100pt;
+$h1-font-reduction: rem-calc(10) !default;
+
+$h2-font-reduction: rem-calc(10) !default;
+$h3-font-reduction: rem-calc(5) !default;
+$h4-font-reduction: rem-calc(5) !default;
+
+$topbar-bg: #F25454;
+
+p {
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+.heading {
+  background-color: #F25454;
+  padding-bottom: 70pt;
+
+  h1 {
+    color: #F2F2F2;
+    font-family: "aktiv-grotesk-std", sans-serif;
+    font-weight: 800;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-top: 10pt;
+  }
+
+  h2 {
+    color: #F2F2F2;
+    font-size: 20pt;
+    font-family: "aktiv-grotesk-std", sans-serif;
+    font-weight: 800;
+  }
+
+  .title {
+    h2 {
+      font-size: 32pt;
+      padding-bottom: 30pt;
+    }
+  }
+}
+
+
+.top-bar-section {
+  .left {
+    a {
+      text-decoration: none;
+      font-family: "aktiv-grotesk-std", sans-serif;
+    }
+  }
+}
+
+.description {
+  background-color: #F2F2F2;
+
+  h2 {
+    padding: 30pt;
+    margin: 0;
+    font-family: "franklin-gothic-urw", sans-serif;
+    font-style: "normal";
+    font-weight: 300;
+  }
+}
+
+.info {
+  color: #E6E6E6;
+  padding-top: 50pt;
+  padding-bottom: 50pt;
+  padding-right: 10pt;
+  padding-left: 10pt;
+
+  h3 {
+    color: #F25454;
+    font-family: "franklin-gothic-urw", sans-serif;
+    font-style: "normal";
+    font-weight: 700;
+  }
+    
+  font-family: "franklin-gothic-urw", sans-serif;
+  font-style: "normal";
+  font-weight: 300;
+}
+
+.call_for_speakers {
+  background-color: #F25454;
+  padding-top: 50pt;
+  padding-bottom: 50pt;
+  padding-right: 10pt;
+  padding-left: 10pt;
+
+  h3 {
+    color: #F2F2F2;
+    font-family: "franklin-gothic-urw", sans-serif;
+    font-style: "normal";
+    font-weight: 700;
+  }
+}
+
+.sponsors {
+  padding-top: 50pt;
+  padding-bottom: 50pt;
+  padding-right: 10pt;
+  padding-left: 10pt;
+
+  background-color: #DCDCDC;
+
+  h3 {
+    color: #374140;
+    margin-bottom: 40pt;
+    font-weight: 700;
+  }
+}
+
+.footer {
+  color: #E6E6E6;
+  padding-top: 50pt;
+  padding-bottom: 50pt;
+  padding-right: 10pt;
+  padding-left: 10pt;
+
+  .flatmap_logo {
+    width: 30%;
+    margin: 20pt;
+  }
+
+  font-family: "franklin-gothic-urw", sans-serif;
+  font-style: "normal";
+  font-weight: 300;
+}
+
+.codeOfConduct {
+  color: #E6E6E6;
+  padding-top: 50pt;
+  padding-bottom: 50pt;
+  padding-right: 10pt;
+  padding-left: 10pt;
+
+  h3 {
+    color: #F25454;
+    font-family: "franklin-gothic-urw", sans-serif;
+    font-style: "normal";
+    font-weight: 700;
+  }
+    
+  font-family: "franklin-gothic-urw", sans-serif;
+  font-style: "normal";
+  font-weight: 300;
+
+  h4 {
+    color: #E6E6E6;
+  }
+}
+
+@import "settings";
+//@import "foundation";
+
+// Or selectively include components
+ @import
+//   "foundation/components/accordion",
+//   "foundation/components/alert-boxes",
+   "foundation/components/block-grid",
+//   "foundation/components/breadcrumbs",
+//   "foundation/components/button-groups",
+//   "foundation/components/buttons",
+//   "foundation/components/clearing",
+//   "foundation/components/dropdown",
+//   "foundation/components/dropdown-buttons",
+//   "foundation/components/flex-video",
+   "foundation/components/forms",
+   "foundation/components/grid",
+//   "foundation/components/inline-lists",
+//   "foundation/components/joyride",
+//   "foundation/components/keystrokes",
+//   "foundation/components/labels",
+//   "foundation/components/magellan",
+//   "foundation/components/orbit",
+//   "foundation/components/pagination",
+//   "foundation/components/panels",
+//   "foundation/components/pricing-tables",
+//   "foundation/components/progress-bars",
+//   "foundation/components/reveal",
+//   "foundation/components/side-nav",
+//   "foundation/components/split-buttons",
+//   "foundation/components/sub-nav",
+//   "foundation/components/switches",
+//   "foundation/components/tables",
+//   "foundation/components/tabs",
+//   "foundation/components/thumbs",
+//   "foundation/components/tooltips",
+   "foundation/components/top-bar",
+   "foundation/components/type",
+//   "foundation/components/offcanvas",
+   "foundation/components/visibility";
+
