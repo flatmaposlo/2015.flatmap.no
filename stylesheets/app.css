@@ -91,8 +91,12 @@ p a:hover {
   font-style: "normal";
   font-weight: 700;
 }
+/* line 124, ../scss/app.scss */
+.call_for_speakers li {
+  padding-left: 40pt;
+}
 
-/* line 126, ../scss/app.scss */
+/* line 129, ../scss/app.scss */
 .sponsors {
   padding-top: 50pt;
   padding-bottom: 50pt;
@@ -100,14 +104,14 @@ p a:hover {
   padding-left: 10pt;
   background-color: #DCDCDC;
 }
-/* line 134, ../scss/app.scss */
+/* line 137, ../scss/app.scss */
 .sponsors h3 {
   margin-bottom: 30pt;
   color: #374140;
   font-weight: 700;
 }
 
-/* line 141, ../scss/app.scss */
+/* line 144, ../scss/app.scss */
 .footer {
   color: #E6E6E6;
   padding-top: 50pt;
@@ -118,13 +122,13 @@ p a:hover {
   font-style: "normal";
   font-weight: 300;
 }
-/* line 148, ../scss/app.scss */
+/* line 151, ../scss/app.scss */
 .footer .flatmap_logo {
   width: 30%;
   margin: 20pt;
 }
 
-/* line 158, ../scss/app.scss */
+/* line 161, ../scss/app.scss */
 .codeOfConduct {
   color: #E6E6E6;
   padding-top: 50pt;
@@ -135,14 +139,14 @@ p a:hover {
   font-style: "normal";
   font-weight: 300;
 }
-/* line 165, ../scss/app.scss */
+/* line 168, ../scss/app.scss */
 .codeOfConduct h3 {
   color: #F25454;
   font-family: "franklin-gothic-urw", sans-serif;
   font-style: "normal";
   font-weight: 700;
 }
-/* line 176, ../scss/app.scss */
+/* line 179, ../scss/app.scss */
 .codeOfConduct h4 {
   color: #E6E6E6;
 }
