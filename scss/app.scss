@@ -12,10 +12,15 @@ $h1-font-size: 100pt;
 $h1-font-reduction: rem-calc(10) !default;
 
 $h2-font-reduction: rem-calc(10) !default;
+
+$h3-font-size: 24pt;
 $h3-font-reduction: rem-calc(5) !default;
+
 $h4-font-reduction: rem-calc(5) !default;
 
 $topbar-bg: #F25454;
+
+$paragraph-font-size: 1.7rem;
 
 p {
   a:hover {
@@ -76,17 +81,19 @@ p {
 }
 
 .info {
-  color: #E6E6E6;
+  background-color: #F25454;
   padding-top: 50pt;
   padding-bottom: 50pt;
   padding-right: 10pt;
   padding-left: 10pt;
+  color: black;
 
   h3 {
-    color: #F25454;
+    color: #F2F2F2;
     font-family: "franklin-gothic-urw", sans-serif;
     font-style: "normal";
     font-weight: 700;
+    margin-bottom: 20pt;
   }
     
   font-family: "franklin-gothic-urw", sans-serif;
@@ -95,14 +102,18 @@ p {
 }
 
 .call_for_speakers {
-  background-color: #F25454;
   padding-top: 50pt;
   padding-bottom: 50pt;
   padding-right: 10pt;
   padding-left: 10pt;
+  color: #E6E6E6;
+  font-family: "franklin-gothic-urw", sans-serif;
+  font-style: "normal";
+  font-weight: 800;
 
   h3 {
-    color: #F2F2F2;
+    margin-bottom: 20pt;
+    color: #F25454;
     font-family: "franklin-gothic-urw", sans-serif;
     font-style: "normal";
     font-weight: 700;
@@ -118,8 +129,8 @@ p {
   background-color: #DCDCDC;
 
   h3 {
+    margin-bottom: 20pt;
     color: #374140;
-    margin-bottom: 40pt;
     font-weight: 700;
   }
 }
