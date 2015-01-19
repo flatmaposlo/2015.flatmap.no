@@ -151,6 +151,29 @@ p a:hover {
   color: #E6E6E6;
 }
 
+/* line 184, ../scss/app.scss */
+.speakers {
+  color: #E6E6E6;
+  padding-top: 50pt;
+  padding-bottom: 50pt;
+  padding-right: 10pt;
+  padding-left: 10pt;
+  font-family: "franklin-gothic-urw", sans-serif;
+  font-style: "normal";
+  font-weight: 300;
+}
+/* line 191, ../scss/app.scss */
+.speakers h3 {
+  color: #F25454;
+  font-family: "franklin-gothic-urw", sans-serif;
+  font-style: "normal";
+  font-weight: 700;
+}
+/* line 202, ../scss/app.scss */
+.speakers h4 {
+  color: #E6E6E6;
+}
+
 /* line 347, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.4.7/";
