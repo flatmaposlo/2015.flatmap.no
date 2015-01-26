@@ -182,14 +182,22 @@ p {
 }
 
 .speakers {
-  color: #E6E6E6;
+  background-color: #F2F2F2;
   padding-top: 50pt;
   padding-bottom: 50pt;
   padding-right: 10pt;
   padding-left: 10pt;
 
+  a {
+    font-size: 14pt;
+    font-weight: 800;
+  }
+
+  p.spaced {
+    margin-bottom: 2em;
+  }
+
   h3 {
-    color: #F25454;
     font-family: "franklin-gothic-urw", sans-serif;
     font-style: "normal";
     font-weight: 700;

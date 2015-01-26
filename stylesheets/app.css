@@ -153,7 +153,7 @@ p a:hover {
 
 /* line 184, ../scss/app.scss */
 .speakers {
-  color: #E6E6E6;
+  background-color: #F2F2F2;
   padding-top: 50pt;
   padding-bottom: 50pt;
   padding-right: 10pt;
@@ -163,13 +163,21 @@ p a:hover {
   font-weight: 300;
 }
 /* line 191, ../scss/app.scss */
+.speakers a {
+  font-size: 14pt;
+  font-weight: 800;
+}
+/* line 196, ../scss/app.scss */
+.speakers p.spaced {
+  margin-bottom: 2em;
+}
+/* line 200, ../scss/app.scss */
 .speakers h3 {
-  color: #F25454;
   font-family: "franklin-gothic-urw", sans-serif;
   font-style: "normal";
   font-weight: 700;
 }
-/* line 202, ../scss/app.scss */
+/* line 210, ../scss/app.scss */
 .speakers h4 {
   color: #E6E6E6;
 }
