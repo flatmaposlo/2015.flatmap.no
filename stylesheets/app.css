@@ -182,6 +182,11 @@ p a:hover {
   color: #E6E6E6;
 }
 
+/* line 216, ../scss/app.scss */
+.large-block-grid-3 li.fakespace {
+  width: 16.5%;
+}
+
 /* line 347, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.4.7/";
