@@ -230,6 +230,17 @@ p {
   }
 }
 
+#twitterImg {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  z-index: 900;
+
+  img {
+    height: 27px;
+  }
+}
+
 
 @import "settings";
 //@import "foundation";

@@ -199,6 +199,18 @@ p a:hover {
   width: 16.5%;
 }
 
+/* line 233, ../scss/app.scss */
+#twitterImg {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  z-index: 900;
+}
+/* line 239, ../scss/app.scss */
+#twitterImg img {
+  height: 27px;
+}
+
 /* line 347, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.4.7/";
