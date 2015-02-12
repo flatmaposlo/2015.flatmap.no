@@ -172,17 +172,22 @@ p a:hover {
   margin-bottom: 2em;
 }
 /* line 200, ../scss/app.scss */
+.speakers p.named {
+  font-size: 14pt;
+  font-weight: 800;
+}
+/* line 205, ../scss/app.scss */
 .speakers h3 {
   font-family: "franklin-gothic-urw", sans-serif;
   font-style: "normal";
   font-weight: 700;
 }
-/* line 210, ../scss/app.scss */
+/* line 215, ../scss/app.scss */
 .speakers h4 {
   color: #E6E6E6;
 }
 
-/* line 216, ../scss/app.scss */
+/* line 221, ../scss/app.scss */
 .large-block-grid-3 li.fakespace {
   width: 16.5%;
 }
