@@ -51,21 +51,56 @@
         </a>
     </section>
   </section>
-  <section class="speakers" id="speakers">
-      <div class="row text-center">
-        <h3>SPEAKERS</h3>
-      </div>
-      <ul class="text-center small-block-grid-1 medium-block-grid-3 large-block-grid-3">
-        <li><a href="brady.html#session"><img src="img/brady.png" height="150" width="150" /></a><p class="named">EDWIN BRADY</p></li>
-        <li><a href="ford.html#session"><img src="img/ford.png" height="150" width="150" /></a><p class="named">CHRIS FORD</p></li>
-        <li><a href="hostwinje.html#session"><img src="img/host.png" height="150" width="150"/></a><p class="named">EINAR HØST</p></li>
-        <li><a href="lilleaas.html#session"><img src="img/lilleaas.png" height="150" width="150"/></a><p class="named">AUGUST LILLEAAS</p></li>
-        <li><a href="mcadams.html#session"><img src="img/mcadams.png" height="150" width="150"/></a><p class="named">BRENDAN MCADAMS</p></li>
-        <li><a href="pretty.html#session"><img src="img/pretty.png" height="150" width="150"/></a><p class="named">JON PRETTY</p></li>
-        <li class="fakespace"></li>
-        <li><a href="sabin.html#session"><img src="img/sabin.png" height="150" width="150"/></a><p class="named">MILES SABIN</p></li>
-        <li><a href="hostwinje.html#session"><img src="img/winje.png" height="150" width="150" /></a><p class="named">JONAS WINJE</p></li>
-      </ul>
+  <section class="speakers" id="session">
+      <div class="row">
+        <div class="text-center">
+          <h3>THE SWISS ARMY KNIFE OF GENERIC PROGRAMMING: <br/>
+            SHAPELESS'S TYPE CLASS DERIVATION IN ACTION</h3>
+          <p>presentation</p>
+        </div>
+        <p>
+          Automatic type class derivation, introduced in shapeless 2.0.0 at the
+          beginning of 2013 by Lars Hupel in the form of the TypeClass type
+          class (yes, you read that right), deserves a great deal more attention
+          than it has received up until now. Built on top of shapeless's core
+          generic programming primitives it allows instances for a wide variety
+          of useful type classes to be derived for Scala ADTs with no (or at
+          most minimal) boilerplate.
+        </p>
+        <p>
+          But until recently the types that type class instances could be
+          derived for (families of Scala case classes sharing a common sealed
+          trait and with fairly minimal support for recursion) was quite
+          limited. In shapeless 2.1.0 its scope has been significantly expanded
+          to include non-case classes (so long as they are sufficiently "case
+          class-like") and more complex recursion patterns (eg. through types
+          outside the immediate family). It's now also possible to provide
+          specialized, non-derived, instances for specific case class members of
+          the families being derived for.
+        </p>
+        <p>
+          This means that shapeless type class derivation is now the tool of
+          choice for many important generic programming problems in Scala.
+        </p>
+        <p class="spaced">
+          In this talk I will demonstrate this with example derivations of
+          ordering and type-safe equality type classes, serialization and
+          deserialization, type safe diffs, functors and a variety of other
+          folds, unfolds and transformations which would otherwise require huge
+          amounts of tedious boilerplate to implement.
+        </p>
+        <div class="text-center">
+          <a name="sabin"></a>
+          <p><img src="img/sabin.png" height="180" width="180"/></p>
+          <h3>MILES SABIN</h3>
+          <p><a href="https://twitter.com/milessabin">@milessabin</a></p>
+        </div>
+        <p class="spaced">
+          Miles has been doing stuff with Scala for the last ten years, most
+          recently with _.underscore and Precog. His best known project, the
+          Scala generic programming library shapeless, is the weapon of choice
+          wherever boilerplate needs to be scrapped or arities abstracted over.
+        </p>
     </div>
   </section>
   <section class="sponsors">
