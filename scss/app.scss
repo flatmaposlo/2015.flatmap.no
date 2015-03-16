@@ -105,10 +105,39 @@ p {
     font-weight: 700;
     margin-bottom: 20pt;
   }
-    
+
   font-family: "franklin-gothic-urw", sans-serif;
   font-style: "normal";
   font-weight: 300;
+}
+
+.speakers_frontpage {
+  padding-top: 50pt;
+  padding-bottom: 50pt;
+  padding-right: 10pt;
+  padding-left: 10pt;
+  color: #E6E6E6;
+  font-family: "franklin-gothic-urw", sans-serif;
+  font-style: "normal";
+  font-weight: 800;
+
+  h3 {
+    margin-bottom: 30pt;
+    color: #F25454;
+    font-family: "franklin-gothic-urw", sans-serif;
+    font-style: "normal";
+    font-weight: 700;
+  }
+  li {
+    padding-left: 40pt;
+  }
+
+  p.named {
+    margin-top: 1.5em;
+    margin-bottom: 4em;
+    font-size: 14pt;
+    font-weight: 500;
+  }
 }
 
 .call_for_speakers {
@@ -178,7 +207,7 @@ p {
     font-style: "normal";
     font-weight: 700;
   }
-    
+
   font-family: "franklin-gothic-urw", sans-serif;
   font-style: "normal";
   font-weight: 300;
@@ -214,7 +243,7 @@ p {
     font-style: "normal";
     font-weight: 700;
   }
-    
+
   font-family: "franklin-gothic-urw", sans-serif;
   font-style: "normal";
   font-weight: 300;
@@ -282,4 +311,3 @@ p {
    "foundation/components/type",
 //   "foundation/components/offcanvas",
    "foundation/components/visibility";
-

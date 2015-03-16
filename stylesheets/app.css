@@ -80,7 +80,7 @@ p a:hover {
 }
 
 /* line 114, ../scss/app.scss */
-.call_for_speakers {
+.speakers_frontpage {
   padding-top: 50pt;
   padding-bottom: 50pt;
   padding-right: 10pt;
@@ -91,6 +91,37 @@ p a:hover {
   font-weight: 800;
 }
 /* line 124, ../scss/app.scss */
+.speakers_frontpage h3 {
+  margin-bottom: 30pt;
+  color: #F25454;
+  font-family: "franklin-gothic-urw", sans-serif;
+  font-style: "normal";
+  font-weight: 700;
+}
+/* line 131, ../scss/app.scss */
+.speakers_frontpage li {
+  padding-left: 40pt;
+}
+/* line 135, ../scss/app.scss */
+.speakers_frontpage p.named {
+  margin-top: 1.5em;
+  margin-bottom: 4em;
+  font-size: 14pt;
+  font-weight: 500;
+}
+
+/* line 143, ../scss/app.scss */
+.call_for_speakers {
+  padding-top: 50pt;
+  padding-bottom: 50pt;
+  padding-right: 10pt;
+  padding-left: 10pt;
+  color: #E6E6E6;
+  font-family: "franklin-gothic-urw", sans-serif;
+  font-style: "normal";
+  font-weight: 800;
+}
+/* line 153, ../scss/app.scss */
 .call_for_speakers h3 {
   margin-bottom: 20pt;
   color: #F25454;
@@ -98,12 +129,12 @@ p a:hover {
   font-style: "normal";
   font-weight: 700;
 }
-/* line 131, ../scss/app.scss */
+/* line 160, ../scss/app.scss */
 .call_for_speakers li {
   padding-left: 40pt;
 }
 
-/* line 136, ../scss/app.scss */
+/* line 165, ../scss/app.scss */
 .sponsors {
   padding-top: 50pt;
   padding-bottom: 50pt;
@@ -111,14 +142,14 @@ p a:hover {
   padding-left: 10pt;
   background-color: #DCDCDC;
 }
-/* line 144, ../scss/app.scss */
+/* line 173, ../scss/app.scss */
 .sponsors h3 {
   margin-bottom: 30pt;
   color: #374140;
   font-weight: 700;
 }
 
-/* line 151, ../scss/app.scss */
+/* line 180, ../scss/app.scss */
 .footer {
   color: #E6E6E6;
   padding-top: 50pt;
@@ -129,13 +160,13 @@ p a:hover {
   font-style: "normal";
   font-weight: 300;
 }
-/* line 158, ../scss/app.scss */
+/* line 187, ../scss/app.scss */
 .footer .flatmap_logo {
   width: 30%;
   margin: 20pt;
 }
 
-/* line 168, ../scss/app.scss */
+/* line 197, ../scss/app.scss */
 .codeOfConduct {
   color: #E6E6E6;
   padding-top: 50pt;
@@ -146,19 +177,19 @@ p a:hover {
   font-style: "normal";
   font-weight: 300;
 }
-/* line 175, ../scss/app.scss */
+/* line 204, ../scss/app.scss */
 .codeOfConduct h3 {
   color: #F25454;
   font-family: "franklin-gothic-urw", sans-serif;
   font-style: "normal";
   font-weight: 700;
 }
-/* line 186, ../scss/app.scss */
+/* line 215, ../scss/app.scss */
 .codeOfConduct h4 {
   color: #E6E6E6;
 }
 
-/* line 191, ../scss/app.scss */
+/* line 220, ../scss/app.scss */
 .speakers {
   background-color: #F2F2F2;
   padding-top: 50pt;
@@ -169,44 +200,44 @@ p a:hover {
   font-style: "normal";
   font-weight: 300;
 }
-/* line 198, ../scss/app.scss */
+/* line 227, ../scss/app.scss */
 .speakers a {
   font-size: 14pt;
   font-weight: 800;
 }
-/* line 203, ../scss/app.scss */
+/* line 232, ../scss/app.scss */
 .speakers p.spaced {
   margin-bottom: 2em;
 }
-/* line 207, ../scss/app.scss */
+/* line 236, ../scss/app.scss */
 .speakers p.named {
   font-size: 14pt;
   font-weight: 800;
 }
-/* line 212, ../scss/app.scss */
+/* line 241, ../scss/app.scss */
 .speakers h3 {
   font-family: "franklin-gothic-urw", sans-serif;
   font-style: "normal";
   font-weight: 700;
 }
-/* line 222, ../scss/app.scss */
+/* line 251, ../scss/app.scss */
 .speakers h4 {
   color: #E6E6E6;
 }
 
-/* line 228, ../scss/app.scss */
+/* line 257, ../scss/app.scss */
 .large-block-grid-3 li.fakespace {
   width: 16.5%;
 }
 
-/* line 233, ../scss/app.scss */
+/* line 262, ../scss/app.scss */
 #twitterImg {
   position: absolute;
   top: 20px;
   right: 25px;
   z-index: 900;
 }
-/* line 239, ../scss/app.scss */
+/* line 268, ../scss/app.scss */
 #twitterImg img {
   height: 27px;
 }
