@@ -297,7 +297,7 @@ ul.schedule li {
 }
 /* line 324, ../scss/app.scss */
 ul.schedule li.talk {
-  padding-left: 2em;
+  padding-left: 0.5em;
   background-color: #F25454;
   padding-top: 0.7em;
   padding-bottom: 0.7em;
@@ -308,7 +308,7 @@ ul.schedule li.talk {
 ul.schedule li.conference {
   color: black;
   background-color: #dcdcdc;
-  padding-left: 2em;
+  padding-left: 0.5em;
   padding-top: 0.7em;
   padding-bottom: 0.7em;
   margin-top: 0.7em;
@@ -332,7 +332,7 @@ ul.schedule ul.tracks li.track {
 }
 /* line 358, ../scss/app.scss */
 ul.schedule ul.tracks li {
-  padding-left: 2em;
+  padding-left: 0.5em;
 }
 /* line 362, ../scss/app.scss */
 ul.schedule ul.tracks ul.split {
