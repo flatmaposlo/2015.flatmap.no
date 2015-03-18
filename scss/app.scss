@@ -270,6 +270,21 @@ p {
   }
 }
 
+.schedule {
+
+  background-color: red;
+
+  tr {
+    background-color: blue;
+  }
+
+  td {
+    background-color: green;
+    padding: 2em;
+  }
+
+}
+
 
 @import "settings";
 //@import "foundation";

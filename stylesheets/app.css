@@ -242,6 +242,20 @@ p a:hover {
   height: 27px;
 }
 
+/* line 273, ../scss/app.scss */
+.schedule {
+  background-color: red;
+}
+/* line 277, ../scss/app.scss */
+.schedule tr {
+  background-color: blue;
+}
+/* line 281, ../scss/app.scss */
+.schedule td {
+  background-color: green;
+  padding: 2em;
+}
+
 /* line 347, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.4.7/";
