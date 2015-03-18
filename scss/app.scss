@@ -270,21 +270,56 @@ p {
   }
 }
 
-.schedule {
+ul.schedule {
 
   background-color: red;
+  list-style: none;
 
-  tr {
-    background-color: blue;
+  * {
+    font-weight: 200;
+    font-size: 1rem;
   }
 
-  td {
+  li.time {
+    background-color: grey;
+  }
+
+  li {
     background-color: green;
-    padding: 2em;
+    padding: 0;
+  }
+
+  li.tracky {
+    width: 100%;
+    background-color: brown;
+    float: left;
+    display: block;
   }
 
 }
 
+ul.tracks {
+  list-style: none;
+  margin: 0;
+  float: left;
+  display: block;
+  width: 100%;
+  background-color: magenta;
+
+  li.track {
+    float: left;
+    display: block;
+    width: 50%;
+    background-color: blue;
+    margin: 0;
+  }
+
+  ul.split {
+    list-style: none;
+    margin: 0;
+  }
+
+}
 
 @import "settings";
 //@import "foundation";

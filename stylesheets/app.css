@@ -243,17 +243,53 @@ p a:hover {
 }
 
 /* line 273, ../scss/app.scss */
-.schedule {
+ul.schedule {
   background-color: red;
+  list-style: none;
 }
-/* line 277, ../scss/app.scss */
-.schedule tr {
-  background-color: blue;
+/* line 278, ../scss/app.scss */
+ul.schedule * {
+  font-weight: 200;
+  font-size: 1rem;
 }
-/* line 281, ../scss/app.scss */
-.schedule td {
+/* line 283, ../scss/app.scss */
+ul.schedule li.time {
+  background-color: grey;
+}
+/* line 287, ../scss/app.scss */
+ul.schedule li {
   background-color: green;
-  padding: 2em;
+  padding: 0;
+}
+/* line 292, ../scss/app.scss */
+ul.schedule li.tracky {
+  width: 100%;
+  background-color: brown;
+  float: left;
+  display: block;
+}
+
+/* line 301, ../scss/app.scss */
+ul.tracks {
+  list-style: none;
+  margin: 0;
+  float: left;
+  display: block;
+  width: 100%;
+  background-color: magenta;
+}
+/* line 309, ../scss/app.scss */
+ul.tracks li.track {
+  float: left;
+  display: block;
+  width: 50%;
+  background-color: blue;
+  margin: 0;
+}
+/* line 317, ../scss/app.scss */
+ul.tracks ul.split {
+  list-style: none;
+  margin: 0;
 }
 
 /* line 347, ../bower_components/foundation/scss/foundation/components/_global.scss */
