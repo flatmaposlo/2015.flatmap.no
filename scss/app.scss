@@ -308,13 +308,17 @@ ul.schedule {
     font-size: 1rem;
   }
 
+  .schedule_speaker {
+    font-weight: 800;
+  }
+
   li.time {
-    color: #dcdcdc;
+    color: #F2F2F2;
     font-family: "franklin-gothic-urw", sans-serif;
     font-style: "normal";
     font-size: 1.7rem;
     font-weight: 700;
-
+    background-color: #1e1e20;
   }
 
   li {
@@ -323,16 +327,16 @@ ul.schedule {
 
   li.talk {
     padding-left: 0.5em;
-    background-color: #F25454;
     padding-top: 0.7em;
     padding-bottom: 0.7em;
     margin-top: 0.7em;
     margin-bottom: 0.7em;
+    background-color: #F25454;
   }
 
   li.conference {
     color: black;
-    background-color: #dcdcdc;
+    background-color: #F2F2F2;
     padding-left: 0.5em;
     padding-top: 0.7em;
     padding-bottom: 0.7em;
@@ -340,28 +344,63 @@ ul.schedule {
     margin-bottom: 0.7em;
   }
 
+  li.splittracks {
+    margin-bottom: 1em;
+  }
+
   ul.tracks {
+    margin-top: 0.7em;
     list-style: none;
     margin: 0;
-    float: left;
-    display: block;
     width: 100%;
+    height: 100%;
+    display: table;
 
     li.track {
-      float: left;
-      display: block;
       width: 50%;
       margin: 0;
       padding: 0;
+      height: 100%;
+      display: table-cell;
+
+      .talk {
+        margin: 0;
+        /*min-height: 147px;*/
+      }
+
+      ul.split {
+        list-style: none;
+        margin: 0;
+        height: 100%;
+
+        li.workshop {
+          height: 100%;
+        }
+      }
+    }
+
+    li.workshops {
+      width: 50%;
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      display: table-cell;
+      //display: black;
+      background-color: #1E418B;
+
+      ul.split {
+        list-style: none;
+        margin: 0;
+        height: 100%;
+
+        li.workshop {
+          height: 100%;
+        }
+      }
     }
 
     li {
       padding-left: 0.5em;
-    }
-
-    ul.split {
-      list-style: none;
-      margin: 0;
     }
 
   }

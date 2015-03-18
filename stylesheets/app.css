@@ -284,60 +284,99 @@ ul.schedule * {
   font-size: 1rem;
 }
 /* line 311, ../scss/app.scss */
+ul.schedule .schedule_speaker {
+  font-weight: 800;
+}
+/* line 315, ../scss/app.scss */
 ul.schedule li.time {
-  color: #dcdcdc;
+  color: #F2F2F2;
   font-family: "franklin-gothic-urw", sans-serif;
   font-style: "normal";
   font-size: 1.7rem;
   font-weight: 700;
+  background-color: #1e1e20;
 }
-/* line 320, ../scss/app.scss */
+/* line 324, ../scss/app.scss */
 ul.schedule li {
   padding: 0;
 }
-/* line 324, ../scss/app.scss */
+/* line 328, ../scss/app.scss */
 ul.schedule li.talk {
   padding-left: 0.5em;
-  background-color: #F25454;
   padding-top: 0.7em;
   padding-bottom: 0.7em;
   margin-top: 0.7em;
   margin-bottom: 0.7em;
+  background-color: #F25454;
 }
-/* line 333, ../scss/app.scss */
+/* line 337, ../scss/app.scss */
 ul.schedule li.conference {
   color: black;
-  background-color: #dcdcdc;
+  background-color: #F2F2F2;
   padding-left: 0.5em;
   padding-top: 0.7em;
   padding-bottom: 0.7em;
   margin-top: 0.7em;
   margin-bottom: 0.7em;
 }
-/* line 343, ../scss/app.scss */
+/* line 347, ../scss/app.scss */
+ul.schedule li.splittracks {
+  margin-bottom: 1em;
+}
+/* line 351, ../scss/app.scss */
 ul.schedule ul.tracks {
+  margin-top: 0.7em;
   list-style: none;
   margin: 0;
-  float: left;
-  display: block;
   width: 100%;
+  height: 100%;
+  display: table;
 }
-/* line 350, ../scss/app.scss */
+/* line 359, ../scss/app.scss */
 ul.schedule ul.tracks li.track {
-  float: left;
-  display: block;
   width: 50%;
   margin: 0;
   padding: 0;
+  height: 100%;
+  display: table-cell;
 }
-/* line 358, ../scss/app.scss */
-ul.schedule ul.tracks li {
-  padding-left: 0.5em;
+/* line 366, ../scss/app.scss */
+ul.schedule ul.tracks li.track .talk {
+  margin: 0;
+  /*min-height: 147px;*/
 }
-/* line 362, ../scss/app.scss */
-ul.schedule ul.tracks ul.split {
+/* line 371, ../scss/app.scss */
+ul.schedule ul.tracks li.track ul.split {
   list-style: none;
   margin: 0;
+  height: 100%;
+}
+/* line 376, ../scss/app.scss */
+ul.schedule ul.tracks li.track ul.split li.workshop {
+  height: 100%;
+}
+/* line 382, ../scss/app.scss */
+ul.schedule ul.tracks li.workshops {
+  width: 50%;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: table-cell;
+  background-color: #1E418B;
+}
+/* line 391, ../scss/app.scss */
+ul.schedule ul.tracks li.workshops ul.split {
+  list-style: none;
+  margin: 0;
+  height: 100%;
+}
+/* line 396, ../scss/app.scss */
+ul.schedule ul.tracks li.workshops ul.split li.workshop {
+  height: 100%;
+}
+/* line 402, ../scss/app.scss */
+ul.schedule ul.tracks li {
+  padding-left: 0.5em;
 }
 
 /* line 347, ../bower_components/foundation/scss/foundation/components/_global.scss */
