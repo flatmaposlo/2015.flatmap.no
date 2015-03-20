@@ -332,6 +332,14 @@ ul.schedule {
     margin-top: 0.7em;
     margin-bottom: 0.7em;
     background-color: #F25454;
+
+    a {
+      color: #F2F2F2;
+    }
+
+    a:hover {
+      color: #1E418B
+    }
   }
 
   li.conference {
@@ -385,6 +393,14 @@ ul.schedule {
       height: 100%;
       display: table-cell;
       background-color: #1E418B;
+
+      a {
+        color: #F2F2F2;
+      }
+
+      a:hover {
+        color: #f25454
+      }
 
       ul.split {
         list-style: none;

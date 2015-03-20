@@ -309,7 +309,15 @@ ul.schedule li.talk {
   margin-bottom: 0.7em;
   background-color: #F25454;
 }
-/* line 337, ../scss/app.scss */
+/* line 336, ../scss/app.scss */
+ul.schedule li.talk a {
+  color: #F2F2F2;
+}
+/* line 340, ../scss/app.scss */
+ul.schedule li.talk a:hover {
+  color: #1e418b;
+}
+/* line 345, ../scss/app.scss */
 ul.schedule li.conference {
   color: black;
   background-color: #F2F2F2;
@@ -319,11 +327,11 @@ ul.schedule li.conference {
   margin-top: 0.7em;
   margin-bottom: 0.7em;
 }
-/* line 347, ../scss/app.scss */
+/* line 355, ../scss/app.scss */
 ul.schedule li.splittracks {
   margin-bottom: 1em;
 }
-/* line 351, ../scss/app.scss */
+/* line 359, ../scss/app.scss */
 ul.schedule ul.tracks {
   margin-top: 0.7em;
   list-style: none;
@@ -332,7 +340,7 @@ ul.schedule ul.tracks {
   height: 100%;
   display: table;
 }
-/* line 359, ../scss/app.scss */
+/* line 367, ../scss/app.scss */
 ul.schedule ul.tracks li.track {
   width: 50%;
   margin: 0;
@@ -340,21 +348,21 @@ ul.schedule ul.tracks li.track {
   height: 100%;
   display: table-cell;
 }
-/* line 366, ../scss/app.scss */
+/* line 374, ../scss/app.scss */
 ul.schedule ul.tracks li.track .talk {
   margin: 0;
 }
-/* line 370, ../scss/app.scss */
+/* line 378, ../scss/app.scss */
 ul.schedule ul.tracks li.track ul.split {
   list-style: none;
   margin: 0;
   height: 100%;
 }
-/* line 375, ../scss/app.scss */
+/* line 383, ../scss/app.scss */
 ul.schedule ul.tracks li.track ul.split li.workshop {
   height: 100%;
 }
-/* line 381, ../scss/app.scss */
+/* line 389, ../scss/app.scss */
 ul.schedule ul.tracks li.workshops {
   width: 50%;
   margin: 0;
@@ -363,17 +371,25 @@ ul.schedule ul.tracks li.workshops {
   display: table-cell;
   background-color: #1E418B;
 }
-/* line 389, ../scss/app.scss */
+/* line 397, ../scss/app.scss */
+ul.schedule ul.tracks li.workshops a {
+  color: #F2F2F2;
+}
+/* line 401, ../scss/app.scss */
+ul.schedule ul.tracks li.workshops a:hover {
+  color: #f25454;
+}
+/* line 405, ../scss/app.scss */
 ul.schedule ul.tracks li.workshops ul.split {
   list-style: none;
   margin: 0;
   height: 100%;
 }
-/* line 394, ../scss/app.scss */
+/* line 410, ../scss/app.scss */
 ul.schedule ul.tracks li.workshops ul.split li.workshop {
   height: 100%;
 }
-/* line 400, ../scss/app.scss */
+/* line 416, ../scss/app.scss */
 ul.schedule ul.tracks li {
   padding-left: 0.5em;
   padding-right: 0.5em;
